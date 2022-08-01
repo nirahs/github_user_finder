@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.1/cerulean/bootstrap.min.css" integrity="sha512-lojUNdOGZXJLeNdWWK4EcsIw7nnpRdi/KQGxKDNNGToPERJzztZlyQ6E/wUvuoNbc1M0TuBiNVBTLxU29zep9g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/lumen/bootstrap.min.css" integrity="sha384-GzaBcW6yPIfhF+6VpKMjxbTx6tvR/yRd/yJub90CqoIn2Tz4rRXlSpTFYMKHCifX" crossorigin="anonymous">
+  <title>Github Finder</title>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-primary mb-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">Github Finder</a>
+    </div>
+  </nav>
+  <div class="container searchContainer">
+    <div class="search card card-body">
+      <h1>Search Github User</h1>
+      <p class="lead">Enter a username to fetch a user profile and repos.</p>
+      <input type="text" id="searchUser" class="form-control" placeholder="Github Username">
+    </div>
+    <br>
+    <div id="profile">
+      <!-- User github profile comes here -->
+    </div>
+  </div>
+  <footer class="mt-5 p-3 text-center bg-light">
+    Github Finder &copy;
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./github.js"></script>
+  <script src="./ui.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
